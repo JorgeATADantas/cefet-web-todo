@@ -1,7 +1,7 @@
 
 //Exercício 0: Representar tarefas
 //tarefa é uma lista de objetos
-let tarefa =  [
+let tarefas =  [
     {
         nome:       'Comprar leite',
         categoria:  'compras',
