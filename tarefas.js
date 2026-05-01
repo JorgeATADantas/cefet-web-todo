@@ -79,3 +79,11 @@ function insereNovaTarefa(){
 // Clicar no botão + para adicionar a tarefa
 let botaoAdicionar = document.querySelector('#incluir-nova-tarefa');
 botaoAdicionar.addEventListener('click', insereNovaTarefa);
+
+//Opcional 4: Pressionar "Enter" inclui a tarefa
+let apertandoEnter = document.querySelector('#nova-tarefa');
+apertandoEnter.addEventListener('keyup', function(e) {
+    if (e.key === 'Enter') {
+        insereNovaTarefa();
+    }
+});
